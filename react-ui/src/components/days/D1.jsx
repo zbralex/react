@@ -19,7 +19,7 @@ function D1() {
             <p>{aboutLearned} <code>{aboutLearnedCode[0]}</code> and <code>{aboutLearnedCode[1]}</code></p>
             <p className="text-secondary">{aboutLearnedHow} <code>{aboutLearnedCode[0]}</code> and <code>{aboutLearnedCode[1]}</code></p>
             <ul className="list-group">
-                <li className="list-group-item" style={{}}>{D1_listItems.item_1.toUpperCase()} - <code>D1_listItems.item_1.toUpperCase()</code></li>
+                <li className="list-group-item">{D1_listItems.item_1.toUpperCase()} - <code>D1_listItems.item_1.toUpperCase()</code></li>
                 <li className="list-group-item">{D1_listItems.item_2.toLowerCase()} - <code>D1_listItems.item_2.toLowerCase()</code></li>
                 <li className="list-group-item">{D1_listItems.item_3}</li>
                 <li className="list-group-item">{D1_listItems.item_4}</li>
