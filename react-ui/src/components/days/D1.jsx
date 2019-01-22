@@ -1,5 +1,6 @@
 import React from 'react'
-
+import articles from '../../Fixtures'
+import Article from '../Article'
 function D1() {
     const aboutLearnedCode = ['.toUpperCase', '.toLowerCase'];
     const aboutLearned = 'in this lesson I added methods';
@@ -26,6 +27,7 @@ function D1() {
                 <li className="list-group-item">{D1_listItems.item_5}</li>
                 <li className="list-group-item">{D1_listItems.item_6}</li>
             </ul>
+            <Article article={articles[0]}/>
         </div>
     )
 }
