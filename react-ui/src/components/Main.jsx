@@ -5,6 +5,7 @@ import Footer from './Footer'
 
 import D1 from './days/D1'
 import D2 from './days/D2'
+import D3 from './days/D3'
 
 
 class Main extends Component {
@@ -17,6 +18,7 @@ class Main extends Component {
                         <h2 className="h2">In project used Bootstrap 4</h2>
                         <D1 />
                         <D2 />
+                        <D3 />
                     </section>
                     <Footer />
                 </div>
