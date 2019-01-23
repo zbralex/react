@@ -1,13 +1,15 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-function Article(props) {
-    const {article} = props;
-    return (
-        <div>
-            <h4 className="h4">{article.title}</h4>
-            <p className="">{article.text}</p>
-        </div>
-    )
+class Article extends Component {
+    render() {
+        const {article} = this.props;
+        return (
+            <div>
+                <h2 className="h2">{article.title}</h2>
+                <p className="text-secondary">{article.text}</p>
+            </div>
+        )
+    }
 }
 
 export default Article
