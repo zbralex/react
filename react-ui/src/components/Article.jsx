@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import article from './Fixtures'
 
 class Article extends Component {
     render() {
