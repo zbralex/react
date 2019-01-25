@@ -27,6 +27,7 @@ class Main extends Component {
                         <D4 />
                         <D5 header="Day 5" text="default properties"/>
                         <D5 header={articles[1].title} text={articles[1].text} />
+                        <D5 header={articles[3].title} text={articles[3].text} date={articles[3].date}/>
                     </section>
                     <Footer />
                 </div>
