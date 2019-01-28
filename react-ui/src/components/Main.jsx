@@ -27,7 +27,7 @@ class Main extends Component {
                         <D4 name="Arthur" age="26" />
                         <D4 />
                         <D5 header="Day 5" text={articles[1].text} />
-                        <D6 name="Alex" age="30" text={articles[4].text}/>
+                        <D6 title={articles[5].title}  text={articles[5].text}/>
                     </section>
                     <Footer />
                 </div>
