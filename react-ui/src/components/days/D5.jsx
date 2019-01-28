@@ -4,7 +4,7 @@ class D5 extends Component {
     render() {
         return (
             <div>
-                <h1 className="h1"> {this.props.header}</h1>
+                <h1 className="h1 bg-primary p-3"> {this.props.header}</h1>
                 <p className="">{this.props.text}</p>
                 <span className="">{(new Date(this.props.date).toString())}</span>
             </div>
