@@ -3,6 +3,7 @@ import React, {Component} from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import articles from '../Fixtures'
+import ArticleList from './days/ArticleList'
 
 import D1 from './days/D1'
 import D2 from './days/D2'
