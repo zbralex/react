@@ -12,7 +12,6 @@ class D3Hw extends Component {
         return(
             <div>
                 {title} <button className="btn btn-primary" onClick={this.handleClick}>{this.state.isOpen ? 'Close' : 'Open'}</button>
-                <p className=""></p>
             </div>
         )
     }
