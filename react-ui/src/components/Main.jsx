@@ -13,6 +13,7 @@ import D5 from './days/D5'
 import D6 from './days/D6'
 import D7 from './days/D7'
 import D8 from './days/D8'
+import D9 from './days/D9'
 
 class Main extends Component {
     render() {
@@ -32,6 +33,7 @@ class Main extends Component {
                         <D6 title={articles[5].title}  text={articles[5].text}/>
                         <D7 />
                         <D8  />
+                        <D9 title= {articles[0].title} text= {articles[0].text}/>
                     </section>
                     <Footer />
                 </div>
