@@ -21,8 +21,8 @@ class Main extends Component {
                 <div className="container">
                 <Header />
                     <section className="main">
-                        <h1 className="h1">React practice</h1>
-                        <h2 className="h2">In project used Bootstrap 4</h2>
+                        <h1 className="jumbotron h1">React practice</h1>
+                        <h2 className="h2 p-2 m-3">In project used Bootstrap 4</h2>
                         <D1 />
                         <D2 />
                         <D3 />

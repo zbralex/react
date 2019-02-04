@@ -6,9 +6,7 @@ export default function ArticleList ({articles}) {
        <Article article={article}/>
     )
     return (
-        
-            <p>{ArticleElements}</p>
-        
+        <p>{ArticleElements}</p>
     )
 
 }
