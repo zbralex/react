@@ -2,8 +2,11 @@ import React, {Component} from 'react'
 
 
 class D7 extends Component {
-    state = {
-        isOpen: true
+    constructor (props) {
+        super(props)
+        this.state = {
+            isOpen: props.defaultOpen
+        }
     }
     render() {
         const hiddenText = this.state.isOpen && <p className="card-text">{this.props.text}</p>
